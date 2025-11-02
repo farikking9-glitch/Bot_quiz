@@ -45,3 +45,7 @@ def get_rating():
     data = cur.fetchall()
     conn.close()
     return data
+
+
+def update_username():
+    return None
